@@ -45,7 +45,7 @@ z = 20
 
 1. Ensure you have Python3 installed.
 
-2. Run the command:
+2. Run the script:
 
 ```paintext
 python3 Main.py
