@@ -8,4 +8,4 @@ Supported arithemtic:
 
 Author: Abigail Pitcairn
 
-Version: 11.06.24
+Version: December 4, 2024
