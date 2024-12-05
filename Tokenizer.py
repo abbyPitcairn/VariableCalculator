@@ -11,7 +11,6 @@ TOKEN_SPEC = [
     ('ADD', r'\+'),                    # Addition
     ('SUB', r'-'),                     # Subtraction
     ('MUL', r'\*'),                    # Multiplication
-    ('DIV', r'/'),                     # Division
     ('LPAREN', r'\('),                 # Left parenthesis
     ('RPAREN', r'\)'),                 # Right parenthesis
     ('SKIP', r'[ \t]+'),               # Skip spaces and tabs

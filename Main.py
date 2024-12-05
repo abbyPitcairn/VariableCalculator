@@ -23,6 +23,10 @@ def main():
         try:
             user_input = input("> ").strip()
 
+            # # DEBUGGING: printing tokens (remove these two lines later !! )
+            # tokens = list(tokenize(user_input))
+            # print("Tokens:", tokens)
+
             if not user_input:
                 print("Please enter a valid command.")
                 continue
