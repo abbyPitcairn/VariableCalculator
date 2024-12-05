@@ -1,7 +1,7 @@
 import re
-
 # Tokenize user input for use in calculation parsing.
 # Author: Abigail Pitcairn
+# Version: December 5, 2024
 
 # Token types
 TOKEN_SPEC = [

@@ -1,5 +1,6 @@
 # Evaluate parsed expression.
 # Author: Abigail Pitcairn
+# Version: December 5, 2024
 
 class Evaluator:
     def __init__(self):

@@ -1,20 +1,19 @@
 from Evaluator import Evaluator
 from Parser import Parser
 from Tokenizer import tokenize
-
 # Main method to read in user input and call calculation methods
 # Author: Abigail Pitcairn
-# Version: 11.25.24
+# Version: December 5, 2024
 
 
 def main():
     print("Welcome to the Variable Calculator!")
     print("You can perform the following actions:")
-    print("  1. Assign a variable: e.g., `x = 10`")
-    print("  2. Perform calculations: e.g., `x + 5`, `(x + y) * 3`")
-    print("  3. Use multiple operations with parentheses: e.g., `z = (x + 5) * 2`")
+    print("  1. Assign a variable, like x = 10")
+    print("  2. Perform calculations, like x + 5")
+    print("  3. Use multiple operations with parentheses, like z = (x + 5) * 2")
     print("  4. Type `print x` to display the value of a variable.")
-    print("  5. Type `exit` or `quit` to leave the program.")
+    print("  5. Type `exit` to leave the program.")
     print()
 
     evaluator = Evaluator()
@@ -31,7 +30,7 @@ def main():
                 print("Please enter a valid command.")
                 continue
 
-            if user_input.lower() in ('exit', 'quit'):
+            if user_input.lower() == 'exit':
                 print("Thank you for using the Variable Calculator. Goodbye.")
                 break
 
